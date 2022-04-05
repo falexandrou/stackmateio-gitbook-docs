@@ -1,0 +1,2 @@
+# How stackmate is designed
+
