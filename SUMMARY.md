@@ -6,16 +6,8 @@
 * [Quick Start](guides/quick-start.md)
 * [Installation](guides/installation.md)
 * [Usage](guides/usage.md)
-
-## Configuration
-
-* [Introduction](configuration/introduction.md)
-* [Name](configuration/name.md)
-* [Provider](configuration/provider.md)
-* [Region](configuration/region.md)
-* [State](configuration/state.md)
-* [Secrets](configuration/secrets.md)
-* [Stages](configuration/stages.md)
+* [Configuration](guides/configuration.md)
+* [Output files](guides/output-files.md)
 
 ## Commands
 
@@ -25,6 +17,15 @@
 * [stackmate resources](commands/stackmate-resources.md)
 * [stackmate config](commands/stackmate-config.md)
 
+## Configuration
+
+* [name](configuration/name.md)
+* [provider](configuration/provider.md)
+* [region](configuration/region.md)
+* [state](configuration/state.md)
+* [secrets](configuration/secrets.md)
+* [stages](configuration/stages.md)
+
 ## Services
 
 * [MariaDB](services/mariadb.md)
@@ -33,13 +34,8 @@
 * [PostgreSQL](services/postgresql.md)
 * [Redis](services/redis.md)
 
-## General
+## Appendix
 
-* [FAQ](general/faq.md)
-* [Security](general/security.md)
-* [Supported services](general/supported-services.md)
-* [Generated Files](general/generated-files.md)
-
-## Contributing
-
-* [How stackmate is designed](contributing/how-stackmate-is-designed.md)
+* [FAQ](appendix/faq.md)
+* [Security](appendix/security.md)
+* [License](appendix/license.md)

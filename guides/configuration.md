@@ -1,4 +1,4 @@
-# Introduction
+# Configuration
 
 Stackmate uses a really simple configuration file that describes your infrastructure and resides in your application's directory.  It is advised to store it along with your application's code and commit it in source control so that you can track your infrastructure's changes consistently.
 
@@ -30,12 +30,12 @@ You can find more information on the `init` command [page](../commands/stackmate
 
 The stackmate configuration file is designed to be as simple and straight-forward as it gets. The following list summarizes the configuration attributes that you can apply and you can find more details in the corresponding sections.
 
-* ``[`name`](name.md) - The project's url-friendly name
-* ``[`provider`](provider.md) - The default cloud provider for the services deployed
-* ``[`region`](region.md) - The default region to deploy the services within
-* ``[`state`](state.md) - The state storage configuration. _Applies to all environments_
-* ``[`secrets`](secrets.md) - _**Optional**_ - The secrets storage configuration. _Applies to all environments_
-* ``[`stages`](stages.md) - The stages and list of services that are available for each
+* ``[`name`](../configuration/name.md) - The project's url-friendly name
+* ``[`provider`](../configuration/provider.md) - The default cloud provider for the services deployed
+* ``[`region`](../configuration/region.md) - The default region to deploy the services within
+* ``[`state`](../configuration/state.md) - The state storage configuration. _Applies to all environments_
+* ``[`secrets`](../configuration/secrets.md) - _**Optional**_ - The secrets storage configuration. _Applies to all environments_
+* ``[`stages`](../configuration/stages.md) - The stages and list of services that are available for each
 
 ### Configuration example
 
