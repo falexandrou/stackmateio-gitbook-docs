@@ -1,4 +1,4 @@
-# Basic Configuration
+# Basic Options
 
 ### Accepted values
 
@@ -17,11 +17,11 @@ These configuration options are available across all services on stackmate, and 
 Stackmate supports the following services:
 
 * Database Services
-  * [MariaDB](mariadb.md)
-  * [MySQL](mysql.md)&#x20;
-  * [PostgreSQL](postgresql.md)
+  * [MariaDB](databases/mariadb.md)
+  * [MySQL](databases/mysql.md)&#x20;
+  * [PostgreSQL](databases/postgresql.md)
 * Cache Services
-  * [Memcache](memcache.md)
-  * [Redis](redis.md)
+  * [Memcache](caches/memcache.md)
+  * [Redis](caches/redis.md)
 
 You can find all the available options for every service on corresponding service page

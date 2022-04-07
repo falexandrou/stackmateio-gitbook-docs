@@ -18,6 +18,15 @@
 * [secrets](configuration/secrets.md)
 * [stages](configuration/stages.md)
 
+## Services
+
+* [Basic Options](services/basic-options.md)
+* [MariaDB](services/databases/mariadb.md)
+* [Memcache](services/caches/memcache.md)
+* [MySQL](services/databases/mysql.md)
+* [PostgreSQL](services/databases/postgresql.md)
+* [Redis](services/caches/redis.md)
+
 ## Commands
 
 * [stackmate init](commands/stackmate-init.md)
@@ -26,15 +35,6 @@
 * [stackmate deploy](commands/stackmate-deploy.md)
 * [stackmate resources](commands/stackmate-resources.md)
 * [stackmate config](commands/stackmate-config.md)
-
-## Services
-
-* [Basic Configuration](services/basic-configuration.md)
-* [MariaDB](services/mariadb.md)
-* [Memcache](services/memcache.md)
-* [MySQL](services/mysql.md)
-* [PostgreSQL](services/postgresql.md)
-* [Redis](services/redis.md)
 
 ## Appendix
 

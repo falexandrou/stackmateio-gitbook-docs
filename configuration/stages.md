@@ -15,15 +15,7 @@ As you can see, each stage is added as a key to the `stages` object and every se
 
 ### Service configuration
 
-Every service should have a unique name and can be described with the following attributes:
-
-* `type` - **required** - The service's type. It should be one of the services available
-* `region` - the region to deploy the service. If not provided, the default configuration for the project's [`region`](region.md) is used.
-* `links` - A list of services that are inter-connected. For example a `mysql` service could be linked to the `application` service in order to allow incoming connections from the `application` service.
-* `profile` - A pre-made profile to use for the service. If not specified, the `default` profile is used for the service. You need to refer to every service separately in order to view the corresponding options available.
-* `overrides` - An object with attributes to override the default profile with. Each service has its own profile and own overrides. You need to refer to every service separately in order to view the corresponding options available.
-
-These configuration options are available across all services on stackmate, and each service may or may not provide additional attributes to be configured by.
+You can find more information on how to configure your services on the [services configuration page](../services/basic-options.md) or by visiting each service's documentation page.
 
 ### Reserved keys
 
