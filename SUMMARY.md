@@ -29,13 +29,12 @@
 
 ## Services
 
-* [Databases](services/databases/README.md)
-  * [MariaDB](services/databases/mariadb.md)
-  * [MySQL](services/databases/mysql.md)
-  * [PostgreSQL](services/databases/postgresql.md)
-* [Caches](services/caches/README.md)
-  * [Memcache](services/caches/memcache.md)
-  * [Redis](services/caches/redis.md)
+* [Basic Configuration](services/basic-configuration.md)
+* [MariaDB](services/mariadb.md)
+* [Memcache](services/memcache.md)
+* [MySQL](services/mysql.md)
+* [PostgreSQL](services/postgresql.md)
+* [Redis](services/redis.md)
 
 ## Appendix
 
