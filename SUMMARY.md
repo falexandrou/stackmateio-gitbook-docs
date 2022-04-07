@@ -37,6 +37,5 @@
 
 ## Appendix
 
-* [FAQ](appendix/faq.md)
 * [Security](appendix/security.md)
 * [License](appendix/license.md)
