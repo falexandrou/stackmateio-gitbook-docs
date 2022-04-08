@@ -1,7 +1,5 @@
 # Basic Options
 
-### Accepted values
-
 Every service on a stackmate configuration, should have a unique name and can be described with the following attributes:
 
 * `type` - **required** - The service's type. It should be one of the services available
@@ -17,11 +15,11 @@ These configuration options are available across all services on stackmate, and 
 Stackmate supports the following services:
 
 * Database Services
-  * [MariaDB](databases/mariadb.md)
-  * [MySQL](databases/mysql.md)&#x20;
-  * [PostgreSQL](databases/postgresql.md)
+  * [MariaDB](database-services/mariadb.md)
+  * [MySQL](database-services/mysql.md)&#x20;
+  * [PostgreSQL](database-services/postgresql.md)
 * Cache Services
-  * [Memcache](caches/memcache.md)
-  * [Redis](caches/redis.md)
+  * [Memcache](cache-services/memcache.md)
+  * [Redis](cache-services/redis.md)
 
 You can find all the available options for every service on corresponding service page

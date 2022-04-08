@@ -15,7 +15,7 @@ As you can see, each stage is added as a key to the `stages` object and every se
 
 ### Service configuration
 
-You can find more information on how to configure your services on the [services configuration page](../services/basic-options.md) or by visiting each service's documentation page.
+You can find more information on how to configure your services on the [available services](../services/basic-options.md#services-available) configuration page, or by visiting each service's documentation page.
 
 ### Reserved keys
 
@@ -50,7 +50,7 @@ stages:
     
   staging:        # the staging stage, copied from production
     from: production    # we specify the source stage
-    skip:               # we specify the services to skip
+    skip:               # optionally, we specify the services to skip
       - postgresqldb        # we're skipping the postgresql service on staging
 ```
 {% endcode %}

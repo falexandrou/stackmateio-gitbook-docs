@@ -10,7 +10,7 @@ For storing your secrets on AWS Secrets manager, you need to specify an object c
 
 * `provider` - It should be set to `aws`
 
-The entire `secrets` block can be skipped if the provider is set to `aws`.
+The entire `secrets` block can be skipped if the project-wide `provider` is set to `aws`.
 
 ### Examples
 
