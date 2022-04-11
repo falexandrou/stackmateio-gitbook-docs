@@ -10,4 +10,4 @@ stackmate synth [--output ...]
 
 ### Options
 
-* `--output` - Specifies where to write the output files to. By default, exports into the project's stackmate directory (eg. `.stackmate`).
+* `--output` - Specifies where to write the output files to. By default, exports into the project's stackmate directory (eg. `.stackmate/synthesized`).
