@@ -7,7 +7,7 @@ The `stackmate config` command retrieves or sets values in the application's pre
 #### Retrieving a value
 
 ```
-stackmate config:get default-provider
+stackmate config:get <option>
 ```
 
 The command in the example above, will output the value for the default cloud provider that should be used in future project configurations
@@ -15,7 +15,7 @@ The command in the example above, will output the value for the default cloud pr
 #### Setting a value
 
 ```
-stackmate config:set default-provider aws
+stackmate config:set <option> <value>
 ```
 
 The command in the example above will set `aws` to be the default cloud provider for future project configurations, meaning that next time you don't specify a provider in `stackmate init` it will automatically assign `aws` as the provider

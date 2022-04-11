@@ -34,7 +34,7 @@
 
 * [stackmate init](commands/stackmate-init.md)
 * [stackmate deploy](commands/stackmate-deploy.md)
-* [stackmate stage](commands/stackmate-stage.md)
+* [stackmate copy](commands/stackmate-copy.md)
 * [stackmate synth](commands/stackmate-synth.md)
 * [stackmate resources](commands/stackmate-resources.md)
 * [stackmate config](commands/stackmate-config.md)
