@@ -10,7 +10,7 @@ stackmate init --with <service list> [...additional arguments]
 
 The `--with` argument is required in order for stackmate to add some services to your configuration file.&#x20;
 
-#### Options
+### Options
 
 * `--with service1,service2,...` - **required** - Comma separated list of the services to add to the production environment. For a full list of the supported services, please check out the [stages configuration](../configuration/stages.md) for supported options.
 * `--provider <provider>` - Should be one of the providers available, for example `aws`. For a full list of the providers we support, please check out the [provider configuration](../configuration/provider.md) for supported options.
